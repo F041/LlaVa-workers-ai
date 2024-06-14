@@ -111,7 +111,7 @@
 </script>
 
 <div class="container">
-	<h1>Floor is Llava</h1>
+	<h1>Artificial vision with LLaVa</h1>
 	<div
 		class="upload-area {isDragging ? 'dragging' : ''}"
 		role="button"
@@ -139,7 +139,7 @@
 	<input
 		type="text"
 		class="question-input"
-		placeholder="Ask a question about the photo..."
+		placeholder="Ask a question about the photo you uploaded..."
 		bind:value={question}
 	/>
 	<button class="submit-button" on:click={submitForm}>Submit</button>
